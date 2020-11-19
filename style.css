@@ -1,0 +1,85 @@
+/* HEADER */
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #000000;
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+
+#title {
+  margin-bottom: 1.2rem;
+  font-size:  5rem;
+  color: #ffff00;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar li {
+  display: inline-block;
+}
+
+#navbar li a {
+  font-size:  2rem;
+  display: block;
+  color: #ffff99;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.15s;
+}
+
+#navbar li a:hover {
+  color: #fff;
+}
+
+a {
+  color: #0c8ac8;
+  text-decoration: none;
+}
+
+/* Body */
+body {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  color: #000000;
+  background: #ffffff;
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+#products{
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+} 
+#h3{
+  font-weight: bold;
+}
+#about {
+  float: center;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 1000px; 
+  border: 2px solid #ffff00;
+  word-wrap: break-word;
+  font-weight: bold;
+  background-color: #ffff00;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+} 
+
+
+
+ 
