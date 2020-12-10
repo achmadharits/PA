@@ -14,6 +14,9 @@ header {
 }
 
 #title {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
   margin-bottom: 1.2rem;
   font-size:  5rem;
   color: #ffff00;
@@ -56,15 +59,24 @@ body {
   src: url(sansation_bold.woff);
   font-weight: bold;
 }
+#services{
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+#custom{
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
 #products{
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
   padding-left: 40px;
 } 
-#h3{
-  font-weight: bold;
-}
 #about {
   float: center;
   overflow-wrap: break-word;
@@ -78,6 +90,7 @@ body {
   padding-right: 40px;
   padding-bottom: 50px;
   padding-left: 40px;
+  margin:auto;
 } 
 
 
