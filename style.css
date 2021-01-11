@@ -59,6 +59,7 @@ body {
   src: url(sansation_bold.woff);
   font-weight: bold;
 }
+
 #services{
   padding-top: 50px;
   padding-right: 40px;
@@ -93,6 +94,62 @@ body {
   margin:auto;
 } 
 
+.contact {
+     background: #ffffff;
+     padding: 90px 0px;
+}
+.contact .main_form {
+     background: #fff;
+    box-shadow: #ddd 0px 0px 19px 1px;
+    padding: 40px;
+} 
+.heroslider .container {
+     position: relative;
+     height: 100%;
+     padding-left: 0;
+     padding-right: 0;
+     z-index: 5;
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
 
-
- 
