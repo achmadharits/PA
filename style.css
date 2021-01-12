@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  color: #d9d9d9;
+
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -76,6 +76,9 @@ body {
   padding-left: 40px;
 }
 #custom{
+  color: #000;
+  background: #ffff00;
+  border: 2px solid #ffff00;
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
@@ -93,10 +96,10 @@ body {
   overflow-wrap: break-word;
   text-align: center;
   width: 1318px; 
-  border: 2px solid #ffff00;
+  border: 2px solid #fff;
   word-wrap: break-word;
   font-weight: bold;
-  background-color: #ffff00;
+  background-color: #fff;
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
@@ -130,12 +133,11 @@ footer{
   bottom: 0px;
   width: 100%;
   background: #111;
-}
-p{
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: #d9d9d9;;
 }
+
 .main-content{
   display: flex;
 }
