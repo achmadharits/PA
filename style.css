@@ -88,8 +88,8 @@ body {
   padding-left: 40px;
 } 
 #about {
-  color: #fff;
   float: center;
+  color: #202020;
   overflow-wrap: break-word;
   text-align: center;
   width: 1318px; 
@@ -102,7 +102,12 @@ body {
   padding-bottom: 50px;
   padding-left: 40px;
   margin:auto;
-} 
+}
+#abaout p{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #202020;
+}
 .content1{
   position: relative;
   margin: 130px auto;
@@ -125,6 +130,11 @@ footer{
   bottom: 0px;
   width: 100%;
   background: #111;
+}
+p{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
 }
 .main-content{
   display: flex;
