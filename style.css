@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* HEADER */
 html {
   scroll-behavior: smooth;
@@ -8,13 +17,13 @@ header {
   text-align: center;
   padding: 1rem;
   background: #000000;
-  font-family: myFirstFont;
+  font-family: Poppins;
   src: url(sansation_bold.woff);
   font-weight: bold;
 }
 
 #title {
-  font-family: myFirstFont;
+  font-family: Poppins;
   src: url(sansation_bold.woff);
   font-weight: bold;
   margin-bottom: 1.2rem;
@@ -31,7 +40,7 @@ header {
 }
 
 #navbar li a {
-  font-size:  2rem;
+  font-size:  1.7rem;
   display: block;
   color: #ffff99;
   text-decoration: none;
@@ -55,7 +64,7 @@ body {
   padding: 1rem;
   color: #000000;
   background: #ffffff;
-  font-family: myFirstFont;
+  font-family: Poppins;
   src: url(sansation_bold.woff);
   font-weight: bold;
 }
@@ -79,10 +88,11 @@ body {
   padding-left: 40px;
 } 
 #about {
+  color: #fff;
   float: center;
   overflow-wrap: break-word;
   text-align: center;
-  width: 1000px; 
+  width: 1318px; 
   border: 2px solid #ffff00;
   word-wrap: break-word;
   font-weight: bold;
@@ -93,25 +103,25 @@ body {
   padding-left: 40px;
   margin:auto;
 } 
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
 
-.contact {
-     background: #ffffff;
-     padding: 90px 0px;
 }
-.contact .main_form {
-     background: #fff;
-    box-shadow: #ddd 0px 0px 19px 1px;
-    padding: 40px;
-} 
-.heroslider .container {
-     position: relative;
-     height: 100%;
-     padding-left: 0;
-     padding-right: 0;
-     z-index: 5;
-}
-.footer{
-  position: fixed;
+footer{
+  position: relative;
   bottom: 0px;
   width: 100%;
   background: #111;
@@ -130,6 +140,23 @@ body {
 }
 .box .content{
   margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
 }
 .left .content p{
   text-align: justify;
@@ -147,9 +174,98 @@ body {
   line-height: 40px;
   text-align: center;
   font-size: 18px;
-  border-radius: 
+  border-radius: 5px;
+  transition: 0.3s;
 }
 .left .content .social a span:hover{
   background: #f12020;
 }
-
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
