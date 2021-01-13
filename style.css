@@ -2,18 +2,14 @@
 *{
   margin: 0;
   padding: 0;
-
+  color: #d9d9d9;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
-/* HEADER */
-html {
+html{
   scroll-behavior: smooth;
 }
-
-/* HEADER */
-header {
+header{
   text-align: center;
   padding: 1rem;
   background: #000000;
@@ -21,94 +17,82 @@ header {
   src: url(sansation_bold.woff);
   font-weight: bold;
 }
-
-#title {
+#tittle{
   font-family: Poppins;
   src: url(sansation_bold.woff);
   font-weight: bold;
   margin-bottom: 1.2rem;
-  font-size:  5rem;
+  font-size: 5rem;
   color: #ffff00;
 }
-
-#navbar ul {
-  list-style-type: none;
+#navbar ul{
+  list-style: none;
 }
-
-#navbar li {
+#navbar li{
   display: inline-block;
 }
-
-#navbar li a {
-  font-size:  1.7rem;
+#navbar li a{
+  font-size: 1.7rem;
   display: block;
   color: #ffff99;
   text-decoration: none;
   padding: 10px 20px;
   transition: 0.15s;
 }
-
-#navbar li a:hover {
+#navbar li a:hover{
   color: #fff;
 }
-
 a {
   color: #0c8ac8;
   text-decoration: none;
 }
-
-/* Body */
-body {
-  position: relative;
-  text-align: center;
-  padding: 1rem;
+body{
   color: #000000;
-  background: #ffffff;
   font-family: Poppins;
   src: url(sansation_bold.woff);
-  font-weight: bold;
+  font-weight: bold; 
 }
-
-#services{
+#product{
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
-  padding-left: 40px;
+  padding-left: 40px; 
 }
 #custom{
   color: #000;
   background: #ffff00;
   border: 2px solid #ffff00;
+  text-align: center;
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
   padding-left: 40px;
 }
-#products{
-  padding-top: 50px;
-  padding-right: 40px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-} 
-#about {
+#custom strong{
+  color: #000;
+}
+#custom p{
+  color: #000;
+}
+#about{
   float: center;
   color: #202020;
   overflow-wrap: break-word;
-  text-align: center;
-  width: 1318px; 
+  background: #fff;
   border: 2px solid #fff;
+  text-align: center;
   word-wrap: break-word;
   font-weight: bold;
-  background-color: #fff;
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 50px;
   padding-left: 40px;
-  margin:auto;
+  margin: auto;
 }
-#abaout p{
-  font-size: 1rem;
-  font-weight: 600;
+#about p{
+  color: #202020;
+}
+#about strong{
   color: #202020;
 }
 .content1{
@@ -126,18 +110,13 @@ body {
   font-size: 2.1875rem;
   font-weight: 600;
   color: #202020;
-
 }
 footer{
   position: relative;
   bottom: 0px;
   width: 100%;
   background: #111;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #d9d9d9;;
 }
-
 .main-content{
   display: flex;
 }
